@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDC2E3842B7A0CC900846A1C /* SlideNumberPuzzleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC2E3832B7A0CC900846A1C /* SlideNumberPuzzleApp.swift */; };
+		FDC2E3862B7A0CCA00846A1C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC2E3852B7A0CCA00846A1C /* ContentView.swift */; };
+		FDC2E3882B7A0D0300846A1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC2E3872B7A0D0300846A1C /* Assets.xcassets */; };
+		FDC2E38C2B7A0D0300846A1C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDC2E38B2B7A0D0300846A1C /* Preview Assets.xcassets */; };
+		FDC2E3962B7A0D0400846A1C /* SlideNumberPuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC2E3952B7A0D0400846A1C /* SlideNumberPuzzleTests.swift */; };
+		FDC2E3A02B7A0D0400846A1C /* SlideNumberPuzzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC2E39F2B7A0D0400846A1C /* SlideNumberPuzzleUITests.swift */; };
+		FDC2E3A22B7A0D0500846A1C /* SlideNumberPuzzleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC2E3A12B7A0D0500846A1C /* SlideNumberPuzzleUITestsLaunchTests.swift */; };
+		FDC2E3AF2B7A0E3F00846A1C /* SlideNumberModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC2E3AE2B7A0E3F00846A1C /* SlideNumberModel.swift */; };
+		FDC2E3B12B7A0E8F00846A1C /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC2E3B02B7A0E8F00846A1C /* AspectVGrid.swift */; };
+		FDC2E3B32B7A0EFE00846A1C /* NumberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC2E3B22B7A0EFE00846A1C /* NumberViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDC2E3922B7A0D0400846A1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDC2E3782B7A0CC800846A1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDC2E37F2B7A0CC900846A1C;
+			remoteInfo = SlideNumberPuzzle;
+		};
+		FDC2E39C2B7A0D0400846A1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDC2E3782B7A0CC800846A1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDC2E37F2B7A0CC900846A1C;
+			remoteInfo = SlideNumberPuzzle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDC2E3802B7A0CC900846A1C /* SlideNumberPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideNumberPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC2E3832B7A0CC900846A1C /* SlideNumberPuzzleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideNumberPuzzleApp.swift; sourceTree = "<group>"; };
+		FDC2E3852B7A0CCA00846A1C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDC2E3872B7A0D0300846A1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDC2E3892B7A0D0300846A1C /* SlideNumberPuzzle.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SlideNumberPuzzle.entitlements; sourceTree = "<group>"; };
+		FDC2E38B2B7A0D0300846A1C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDC2E3912B7A0D0400846A1C /* SlideNumberPuzzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideNumberPuzzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC2E3952B7A0D0400846A1C /* SlideNumberPuzzleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideNumberPuzzleTests.swift; sourceTree = "<group>"; };
+		FDC2E39B2B7A0D0400846A1C /* SlideNumberPuzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideNumberPuzzleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC2E39F2B7A0D0400846A1C /* SlideNumberPuzzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideNumberPuzzleUITests.swift; sourceTree = "<group>"; };
+		FDC2E3A12B7A0D0500846A1C /* SlideNumberPuzzleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideNumberPuzzleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FDC2E3AE2B7A0E3F00846A1C /* SlideNumberModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideNumberModel.swift; sourceTree = "<group>"; };
+		FDC2E3B02B7A0E8F00846A1C /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
+		FDC2E3B22B7A0EFE00846A1C /* NumberViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDC2E37D2B7A0CC900846A1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC2E38E2B7A0D0400846A1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC2E3982B7A0D0400846A1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDC2E3772B7A0CC800846A1C = {
+			isa = PBXGroup;
+			children = (
+				FDC2E3822B7A0CC900846A1C /* SlideNumberPuzzle */,
+				FDC2E3942B7A0D0400846A1C /* SlideNumberPuzzleTests */,
+				FDC2E39E2B7A0D0400846A1C /* SlideNumberPuzzleUITests */,
+				FDC2E3812B7A0CC900846A1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDC2E3812B7A0CC900846A1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDC2E3802B7A0CC900846A1C /* SlideNumberPuzzle.app */,
+				FDC2E3912B7A0D0400846A1C /* SlideNumberPuzzleTests.xctest */,
+				FDC2E39B2B7A0D0400846A1C /* SlideNumberPuzzleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDC2E3822B7A0CC900846A1C /* SlideNumberPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				FDC2E3832B7A0CC900846A1C /* SlideNumberPuzzleApp.swift */,
+				FDC2E3852B7A0CCA00846A1C /* ContentView.swift */,
+				FDC2E3872B7A0D0300846A1C /* Assets.xcassets */,
+				FDC2E3892B7A0D0300846A1C /* SlideNumberPuzzle.entitlements */,
+				FDC2E38A2B7A0D0300846A1C /* Preview Content */,
+				FDC2E3AE2B7A0E3F00846A1C /* SlideNumberModel.swift */,
+				FDC2E3B02B7A0E8F00846A1C /* AspectVGrid.swift */,
+				FDC2E3B22B7A0EFE00846A1C /* NumberViewModel.swift */,
+			);
+			path = SlideNumberPuzzle;
+			sourceTree = "<group>";
+		};
+		FDC2E38A2B7A0D0300846A1C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDC2E38B2B7A0D0300846A1C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDC2E3942B7A0D0400846A1C /* SlideNumberPuzzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDC2E3952B7A0D0400846A1C /* SlideNumberPuzzleTests.swift */,
+			);
+			path = SlideNumberPuzzleTests;
+			sourceTree = "<group>";
+		};
+		FDC2E39E2B7A0D0400846A1C /* SlideNumberPuzzleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDC2E39F2B7A0D0400846A1C /* SlideNumberPuzzleUITests.swift */,
+				FDC2E3A12B7A0D0500846A1C /* SlideNumberPuzzleUITestsLaunchTests.swift */,
+			);
+			path = SlideNumberPuzzleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDC2E37F2B7A0CC900846A1C /* SlideNumberPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC2E3A52B7A0D0500846A1C /* Build configuration list for PBXNativeTarget "SlideNumberPuzzle" */;
+			buildPhases = (
+				FDC2E37C2B7A0CC900846A1C /* Sources */,
+				FDC2E37D2B7A0CC900846A1C /* Frameworks */,
+				FDC2E37E2B7A0CC900846A1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlideNumberPuzzle;
+			productName = SlideNumberPuzzle;
+			productReference = FDC2E3802B7A0CC900846A1C /* SlideNumberPuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDC2E3902B7A0D0400846A1C /* SlideNumberPuzzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC2E3A82B7A0D0500846A1C /* Build configuration list for PBXNativeTarget "SlideNumberPuzzleTests" */;
+			buildPhases = (
+				FDC2E38D2B7A0D0400846A1C /* Sources */,
+				FDC2E38E2B7A0D0400846A1C /* Frameworks */,
+				FDC2E38F2B7A0D0400846A1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDC2E3932B7A0D0400846A1C /* PBXTargetDependency */,
+			);
+			name = SlideNumberPuzzleTests;
+			productName = SlideNumberPuzzleTests;
+			productReference = FDC2E3912B7A0D0400846A1C /* SlideNumberPuzzleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDC2E39A2B7A0D0400846A1C /* SlideNumberPuzzleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC2E3AB2B7A0D0500846A1C /* Build configuration list for PBXNativeTarget "SlideNumberPuzzleUITests" */;
+			buildPhases = (
+				FDC2E3972B7A0D0400846A1C /* Sources */,
+				FDC2E3982B7A0D0400846A1C /* Frameworks */,
+				FDC2E3992B7A0D0400846A1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDC2E39D2B7A0D0400846A1C /* PBXTargetDependency */,
+			);
+			name = SlideNumberPuzzleUITests;
+			productName = SlideNumberPuzzleUITests;
+			productReference = FDC2E39B2B7A0D0400846A1C /* SlideNumberPuzzleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDC2E3782B7A0CC800846A1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FDC2E37F2B7A0CC900846A1C = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FDC2E3902B7A0D0400846A1C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FDC2E37F2B7A0CC900846A1C;
+					};
+					FDC2E39A2B7A0D0400846A1C = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FDC2E37F2B7A0CC900846A1C;
+					};
+				};
+			};
+			buildConfigurationList = FDC2E37B2B7A0CC800846A1C /* Build configuration list for PBXProject "SlideNumberPuzzle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDC2E3772B7A0CC800846A1C;
+			productRefGroup = FDC2E3812B7A0CC900846A1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDC2E37F2B7A0CC900846A1C /* SlideNumberPuzzle */,
+				FDC2E3902B7A0D0400846A1C /* SlideNumberPuzzleTests */,
+				FDC2E39A2B7A0D0400846A1C /* SlideNumberPuzzleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDC2E37E2B7A0CC900846A1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC2E38C2B7A0D0300846A1C /* Preview Assets.xcassets in Resources */,
+				FDC2E3882B7A0D0300846A1C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC2E38F2B7A0D0400846A1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC2E3992B7A0D0400846A1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDC2E37C2B7A0CC900846A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC2E3B12B7A0E8F00846A1C /* AspectVGrid.swift in Sources */,
+				FDC2E3862B7A0CCA00846A1C /* ContentView.swift in Sources */,
+				FDC2E3AF2B7A0E3F00846A1C /* SlideNumberModel.swift in Sources */,
+				FDC2E3842B7A0CC900846A1C /* SlideNumberPuzzleApp.swift in Sources */,
+				FDC2E3B32B7A0EFE00846A1C /* NumberViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC2E38D2B7A0D0400846A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC2E3962B7A0D0400846A1C /* SlideNumberPuzzleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC2E3972B7A0D0400846A1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC2E3A02B7A0D0400846A1C /* SlideNumberPuzzleUITests.swift in Sources */,
+				FDC2E3A22B7A0D0500846A1C /* SlideNumberPuzzleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDC2E3932B7A0D0400846A1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDC2E37F2B7A0CC900846A1C /* SlideNumberPuzzle */;
+			targetProxy = FDC2E3922B7A0D0400846A1C /* PBXContainerItemProxy */;
+		};
+		FDC2E39D2B7A0D0400846A1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDC2E37F2B7A0CC900846A1C /* SlideNumberPuzzle */;
+			targetProxy = FDC2E39C2B7A0D0400846A1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FDC2E3A32B7A0D0500846A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDC2E3A42B7A0D0500846A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FDC2E3A62B7A0D0500846A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SlideNumberPuzzle/SlideNumberPuzzle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SlideNumberPuzzle/Preview Content\"";
+				DEVELOPMENT_TEAM = L4443B994J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tu.cn436.SlideNumberPuzzle.SlideNumberPuzzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDC2E3A72B7A0D0500846A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SlideNumberPuzzle/SlideNumberPuzzle.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SlideNumberPuzzle/Preview Content\"";
+				DEVELOPMENT_TEAM = L4443B994J;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tu.cn436.SlideNumberPuzzle.SlideNumberPuzzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FDC2E3A92B7A0D0500846A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4443B994J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tu.cn436.SlideNumberPuzzle.SlideNumberPuzzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideNumberPuzzle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SlideNumberPuzzle";
+			};
+			name = Debug;
+		};
+		FDC2E3AA2B7A0D0500846A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4443B994J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tu.cn436.SlideNumberPuzzle.SlideNumberPuzzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlideNumberPuzzle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SlideNumberPuzzle";
+			};
+			name = Release;
+		};
+		FDC2E3AC2B7A0D0500846A1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4443B994J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tu.cn436.SlideNumberPuzzle.SlideNumberPuzzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SlideNumberPuzzle;
+			};
+			name = Debug;
+		};
+		FDC2E3AD2B7A0D0500846A1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L4443B994J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tu.cn436.SlideNumberPuzzle.SlideNumberPuzzleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SlideNumberPuzzle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDC2E37B2B7A0CC800846A1C /* Build configuration list for PBXProject "SlideNumberPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC2E3A32B7A0D0500846A1C /* Debug */,
+				FDC2E3A42B7A0D0500846A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC2E3A52B7A0D0500846A1C /* Build configuration list for PBXNativeTarget "SlideNumberPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC2E3A62B7A0D0500846A1C /* Debug */,
+				FDC2E3A72B7A0D0500846A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC2E3A82B7A0D0500846A1C /* Build configuration list for PBXNativeTarget "SlideNumberPuzzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC2E3A92B7A0D0500846A1C /* Debug */,
+				FDC2E3AA2B7A0D0500846A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC2E3AB2B7A0D0500846A1C /* Build configuration list for PBXNativeTarget "SlideNumberPuzzleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC2E3AC2B7A0D0500846A1C /* Debug */,
+				FDC2E3AD2B7A0D0500846A1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDC2E3782B7A0CC800846A1C /* Project object */;
+}
